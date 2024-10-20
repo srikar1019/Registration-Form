@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action="https://formspree.io/f/xpwzzedp" method="POST" name="Registration Form">
+            <div class="personal-info">
+                <div>
+                    <label for="first-name" class="first">First Name</label><br>
+                    <input type="text" placeholder="First name" id="first-name">
+                </div>
+                <div>
+                    <label for="last-name" class="last">Last Name</label><br>
+                    <input type="text" placeholder="Last name" id="last-name">
+                </div>
+            </div>
+            <div class="email">
+                <div>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" placeholder="Email" id="email">
+                </div>
+            </div>
+            <div class="phone">
+                <label for="phone">Phone Number</label><br>
+                <input type="number" placeholder="Phone Number" id="phone">
+            </div>
+            <div class="company">
+                <label for="company">Company(If Applicable)</label><br>
+                <input type="text" placeholder="Company" id="company">
+            </div>
+            <label for="dob">Date of birth</label>
+            <div class="dob">
+                <input type="number" class="day" placeholder="Day" id="dob">
+                <input type="text" class="month" placeholder="Month" id="dob">
+                <input type="number" class="year" placeholder="Year" id="dob">
+            </div>
+            <div class="product">
+                <p>How did you find the product?</p>
+                <div class="radio">
+                    <div>
+                        <label for="product">Poor</label>
+                        <input type="radio" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="product">Fair</label>
+                        <input type="radio" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="product">Satisfactory</label>
+                        <input type="radio" name="product" id="product">
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <label for="comment">Leave us a comment</label>
+                <div>
+                    <textarea name="comment" id="comment" cols="75" rows="10"></textarea>
+                </div>
+            </div>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Tell me about new products</label>
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
